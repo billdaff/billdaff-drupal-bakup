@@ -1,0 +1,20 @@
+uuid: f731f816-6461-4f39-9f18-15fe601609ac
+langcode: en
+status: true
+dependencies:
+  theme:
+    - billdaff
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: billdaff_local_actions
+theme: billdaff
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

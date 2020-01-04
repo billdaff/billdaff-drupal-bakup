@@ -1,0 +1,25 @@
+uuid: 8a9cd3c7-0db1-4e34-b634-557dd9b1c143
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - billdaff
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: billdaff_branding
+theme: billdaff
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }
