@@ -1,0 +1,22 @@
+uuid: 20743134-c6db-4e13-b17e-3b332bb0bc71
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - billdaff
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: billdaff_content
+theme: billdaff
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

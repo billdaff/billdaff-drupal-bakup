@@ -1,0 +1,22 @@
+uuid: 13f18c46-4445-46e8-9f91-eb0d80631b91
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - billdaff
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: billdaff_help
+theme: billdaff
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 3355c6e8-007b-40f7-9f93-3171a33eb2a9
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - billdaff
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: billdaff_messages
+theme: billdaff
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }
