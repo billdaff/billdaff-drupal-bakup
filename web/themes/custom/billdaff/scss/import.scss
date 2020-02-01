@@ -2,12 +2,16 @@
 
 //@import url(font-awesome.min.css);
 // variables
-@import "variables";
+
+
 //bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
 //material design bootstrap
-//@import "../node_modules/mdbootstrap/scss/mdb";
-// barrio
+@import "../node_modules/mdbootstrap/scss/mdb-free";
+
+@import "custom/_custom-colors";
+@import "variables";
+// barrio 
 @import "barrio";
 // typography
 @import "typography";
