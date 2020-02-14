@@ -13,7 +13,7 @@ nfs_mount_enabled: false
 provider: default
 use_dns_when_possible: true
 timezone: ""
-
+disable_settings_management: true
 
 # This config.yaml was created with ddev version v1.12.0
 # webimage: drud/ddev-webserver:v1.12.1

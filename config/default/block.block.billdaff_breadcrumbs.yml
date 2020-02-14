@@ -1,0 +1,22 @@
+uuid: 1dac594b-1baa-4b3a-8cc4-299d6e1bd6ef
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - billdaff
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: billdaff_breadcrumbs
+theme: billdaff
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }
